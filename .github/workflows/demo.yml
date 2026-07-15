@@ -1,11 +1,11 @@
-name : normal static website
-
+name: Normal Static Website
 
 on:
   push:
-    branches:["main"]
+    branches: [main]
+
   pull_request:
-    branches:["main"]   
+    branches: [main]
 
 jobs:
   build-and-test:
